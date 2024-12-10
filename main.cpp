@@ -1,9 +1,10 @@
 //Classes
-#include "ReverseWords/ReverseWords.hpp"
-#include "Valid Braces/ValidBraces.hpp"
-#include "mpg to kpl/Converter.hpp"
-#include "Get the Middle Character/GetMiddle.hpp"
-#include "Two Sum/TwoSum.hpp"
+#include "8_Kyu/1.mpg to kpl/Converter.hpp"
+#include "7_Kyu/2.Get the Middle Character/GetMiddle.hpp"
+#include "7_Kyu/1.Reverse Words/ReverseWords.hpp"
+#include "7_Kyu/3.Breaking chocolate problem/BreakChocolate.hpp"
+#include "6_Kyu/1.Valid Braces/ValidBraces.hpp"
+#include "6_Kyu/2.Two Sum/TwoSum.hpp"
 //Libraries
 #include <iostream>
 #include <stack>
@@ -14,8 +15,6 @@
 using namespace std;
 
 int main() {
-    vector<int> input = {1, 2, 3};
-    auto result = two_sum(input, 4);
-    cout << "result: (" << result.first << ", " << result.second << ")" << endl;
+    cout << "result: " << break_chocolate(3, 1) << endl;
     return 0;
 }
