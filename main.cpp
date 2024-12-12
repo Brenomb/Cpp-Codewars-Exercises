@@ -8,6 +8,7 @@
 #include "6_Kyu/2_Two_Sum/TwoSum.cpp"
 #include "6_Kyu/3_Sum_of_Powers_Eq_Initial_Number/SumDigPow.cpp"
 #include "6_Kyu/4_Find_unique_number/FindUnique.cpp"
+#include "6_Kyu/5_Count_characters_in_string/CountChars.cpp"
 
 //Libraries
 #include <iostream>
@@ -20,7 +21,7 @@
 //Namespace
 using namespace std;
 
-int main() {    
-    cout << find_uniq(std::vector<float>{999.666,  999.666, 999.666, 999.666, 999.666, 999.666, 999.666, 999, 999.666}) << endl;
+int main() {
+    cout << "Result" << endl;
     return 0;
 }
