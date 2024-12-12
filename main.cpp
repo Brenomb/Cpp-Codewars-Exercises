@@ -1,10 +1,11 @@
 //Classes
-#include "8_Kyu/1.mpg to kpl/Converter.hpp"
-#include "7_Kyu/2.Get the Middle Character/GetMiddle.hpp"
-#include "7_Kyu/1.Reverse Words/ReverseWords.hpp"
-#include "7_Kyu/3.Breaking chocolate problem/BreakChocolate.hpp"
-#include "6_Kyu/1.Valid Braces/ValidBraces.hpp"
-#include "6_Kyu/2.Two Sum/TwoSum.hpp"
+#include "8_Kyu/1_mpg_to_kpl/Converter.hpp"
+#include "7_Kyu/1_Reverse_Words/ReverseWords.hpp"
+#include "7_Kyu/2_Get_the_Middle_Character/GetMiddle.hpp"
+#include "7_Kyu/3_Breaking_Chocolate_Problem/BreakChocolate.hpp"
+#include "6_Kyu/1_Valid_Braces/ValidBraces.hpp"
+#include "6_Kyu/2_Two_Sum/TwoSum.hpp"
+
 //Libraries
 #include <iostream>
 #include <stack>
@@ -15,6 +16,8 @@
 using namespace std;
 
 int main() {
-    cout << "result: " << break_chocolate(3, 1) << endl;
+    BreakChocolate bc;
+    cout << "hello" << endl;
+    cout << "result: " << bc.break_chocolate(3, 1) << endl;
     return 0;
 }
