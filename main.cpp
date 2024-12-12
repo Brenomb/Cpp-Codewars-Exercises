@@ -6,7 +6,8 @@
 #include "7_Kyu/4_TwoToOne/TwoToOne.cpp"
 #include "6_Kyu/1_Valid_Braces/ValidBraces.cpp"
 #include "6_Kyu/2_Two_Sum/TwoSum.cpp"
-#include "6_Kyu/3_Sum_of_Powers_Eq_Initial_Number/SumDigPow.hpp"
+#include "6_Kyu/3_Sum_of_Powers_Eq_Initial_Number/SumDigPow.cpp"
+#include "6_Kyu/4_Find_unique_number/FindUnique.cpp"
 
 //Libraries
 #include <iostream>
@@ -20,6 +21,6 @@
 using namespace std;
 
 int main() {    
-    cout << BreakChocolate().break_chocolate(3, 1) << endl;
+    cout << find_uniq(std::vector<float>{999.666,  999.666, 999.666, 999.666, 999.666, 999.666, 999.666, 999, 999.666}) << endl;
     return 0;
 }
